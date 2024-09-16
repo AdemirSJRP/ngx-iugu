@@ -1,16 +1,16 @@
 {
-  "name": "ngx-iugu",
-  "version": "1.2.0",
+  "name": "ngx-iugu-ars",
+  "version": "1.0.0",
   "author": {
-    "email": "petersonsimiao1@gmail.com",
-    "name": "Peterson Fonseca",
-    "url": "http://ngx-iugu.surge.sh"
+    "email": "ademiritumbiara@outlook.com",
+    "name": "Ademir Rodrigues da Silva",
+    "url": "https://github.com/AdemirSJRP"
   },
   "repository": {
-    "url": "https://github.com/PetersonFonsec/ngx-iugu",
+    "url": "https://github.com/AdemirSJRP/ngx-iugu",
     "type": "git"
   },
-  "homepage": "http://ngx-iugu.surge.sh/",
+  "homepage": "https://github.com/AdemirSJRP",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -45,7 +45,7 @@
     "@angular/cli": "~12.2.18",
     "@angular/compiler-cli": "~12.2.17",
     "@types/jasmine": "~3.6.0",
-    "@types/node": "^20.16.5",
+    "@types/node": "^16.18.108",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
