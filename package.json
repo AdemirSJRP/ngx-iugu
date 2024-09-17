@@ -1,6 +1,6 @@
 {
   "name": "ngx-iugu-ars",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": {
     "email": "ademiritumbiara@outlook.com",
     "name": "Ademir Rodrigues da Silva",
@@ -26,12 +26,12 @@
   "private": false,
   "dependencies": {
     "@angular/animations": "^15.2.10",
-    "@angular/cdk": "^14.2.7",
+    "@angular/cdk": "^15.2.9",
     "@angular/common": "^15.2.10",
     "@angular/compiler": "^15.2.10",
     "@angular/core": "^15.2.10",
     "@angular/forms": "^15.2.10",
-    "@angular/material": "^14.2.7",
+    "@angular/material": "^15.2.9",
     "@angular/platform-browser": "^15.2.10",
     "@angular/platform-browser-dynamic": "^15.2.10",
     "@angular/router": "^15.2.10",

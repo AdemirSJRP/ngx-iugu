@@ -5,6 +5,8 @@
     "declarationMap": false
   },
   "angularCompilerOptions": {
-    "enableIvy": false
+    "strictMetadataEmit": true,
+    "enableResourceInlining": true,
+    "compilationMode": "partial"
   }
 }
