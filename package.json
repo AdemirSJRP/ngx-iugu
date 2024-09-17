@@ -1,6 +1,6 @@
 {
   "name": "ngx-iugu-ars",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "email": "ademiritumbiara@outlook.com",
     "name": "Ademir Rodrigues da Silva",
@@ -15,7 +15,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:lib": "ng build --configuration production ngx-iugu",
+    "build:lib": "ng build --configuration production ngx-iugu-ars",
     "test": "ng test",
     "test:lib": "ng test ngx-iugu --watch=true --browsers Chrome",
     "test:ci": "ng test ngx-iugu --watch=false --browsers ChromeHeadless",

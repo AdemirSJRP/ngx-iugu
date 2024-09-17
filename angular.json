@@ -134,7 +134,7 @@
         }
       }
     },
-    "ngx-iugu": {
+    "ngx-iugu-ars": {
       "projectType": "library",
       "root": "projects/ngx-iugu",
       "sourceRoot": "projects/ngx-iugu/src",
