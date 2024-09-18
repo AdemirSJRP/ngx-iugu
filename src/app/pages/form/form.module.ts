@@ -31,7 +31,7 @@ import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask';
     MatDialogModule,
     NgxMaskDirective,
     NgxMaskPipe,
-    NgxIuguModule.foorRoot({
+    NgxIuguModule.forRoot({
       testMode: !environment.production,
     }),
   ],
