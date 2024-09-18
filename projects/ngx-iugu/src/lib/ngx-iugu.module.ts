@@ -10,12 +10,11 @@ import { iuguParam } from './iugu-base/iugu-base.service';
   exports: [],
 })
 export class NgxIuguModule {
-  static footRoot(iuguConfig: IuguConfig): ModuleWithProviders<NgxIuguModule> {
+  static foorRoot(iuguConfig: IuguConfig): ModuleWithProviders<NgxIuguModule> {
     return {
       ngModule: NgxIuguModule,
       providers: [
         NgxIuguService,
-        ,
         {
           provide: iuguParam,
           useValue: iuguConfig,

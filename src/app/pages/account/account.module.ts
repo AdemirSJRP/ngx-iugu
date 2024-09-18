@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatLegacyInputModule as MatInputModule } from '@angular/material/legacy-input';
-import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
-import { MatLegacyCardModule as MatCardModule } from '@angular/material/legacy-card';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { FormsModule } from '@angular/forms';
-import { NgxMaskModule } from 'ngx-mask';
+import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask';
 
 import { AccountComponent } from './account.component';
 import { AccountRoutingModule } from './account-routing.module';
@@ -20,8 +20,10 @@ import { AccountRoutingModule } from './account-routing.module';
     MatCardModule,
     MatGridListModule,
     AccountRoutingModule,
-    NgxMaskModule.forRoot(),
+    NgxMaskDirective,
+    NgxMaskPipe,
   ],
+  providers: [provideNgxMask()],
   exports: [AccountComponent],
 })
 export class AccountModule {}
